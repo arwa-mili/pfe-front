@@ -1,0 +1,27 @@
+{
+  "jira-plugin.workingProject": "",
+  "FSharp.suggestGitignore": false,
+  "workbench.colorCustomizations": {
+    "symbolIcon.colorForeground": "#ff0000",
+    "icon.colorForeground": "#ff0000",
+    "activityBar.inactiveForeground": "#524747"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "comment.block.documentation",
+          "comment.block.documentation.js",
+          "comment.line.double-slash.js",
+          "storage.type.class.jsdoc",
+          "entity.name.type.instance.jsdoc",
+          "variable.other.jsdoc",
+          "punctuation.definition.comment",
+          "punctuation.definition.comment.begin.documentation",
+          "punctuation.definition.comment.end.documentation"
+        ],
+      }
+    ]
+  }
+}

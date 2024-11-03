@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "483289886519",
+    "project_id": "chatmed-8046d",
+    "storage_bucket": "chatmed-8046d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483289886519:android:fd964c01858b9c86a5f4b2",
+        "android_client_info": {
+          "package_name": "com.medifront"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfRp8l3cesbZW7zQkvuCuNUhnw4QbBuOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

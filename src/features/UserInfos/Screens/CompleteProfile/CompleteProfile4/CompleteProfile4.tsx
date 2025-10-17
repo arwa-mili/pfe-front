@@ -4,6 +4,8 @@ import { stylesCompleteProfile1 } from '../CompleteProfile1/completeProfile1Styl
 import { Button } from '../../../../../components/Button/Button';
 import { tt } from '../../../../../locales/translation.config';
 import Header from '../../../Components/Header/Header';
+import { Color } from '../../../../../utils/StylingConsts/Colors/Colors';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 /**
  * Represents CompleteProfile4 screen ui
@@ -33,7 +35,7 @@ const CompleteProfile4: React.FC<CompleteProfile4Props> = ({
   isCardioHistoryActive
 }): JSX.Element => {
   return (
-    <>
+    <SafeAreaView style={{ flex: 1, backgroundColor: Color.colorWhite }}>
       <View style={stylesCompleteProfile1.screen}>
         <Header
           title={tt('Step 4/4')}
@@ -101,7 +103,7 @@ const CompleteProfile4: React.FC<CompleteProfile4Props> = ({
           />
         </View>
       </View>
-    </>
+    </SafeAreaView>
   );
 };
 

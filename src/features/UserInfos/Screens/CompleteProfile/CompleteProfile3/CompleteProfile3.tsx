@@ -8,6 +8,8 @@ import { Button } from '../../../../../components/Button/Button';
 import { stylesCompleteProfile1 } from '../CompleteProfile1/completeProfile1Styles';
 import { DiseasesClient } from '../../../../../interfaces/diseases/diseasesResponse.interface';
 import { HasSportActivity } from '../../../../../enums/SportActivity.enum';
+import { Color } from '../../../../../utils/StylingConsts/Colors/Colors';
+import { SafeAreaView } from 'react-native-safe-area-context';
 interface SportActivity {
   id: HasSportActivity;
   value: string;
@@ -36,7 +38,7 @@ export const CompleteProfile3: React.FC<CompletePr3PresenterProps> = ({
   goToNext2
 }) => {
   return (
-    <>
+    <SafeAreaView style={{ flex: 1, backgroundColor: Color.colorWhite }}>
       <Header title={tt('Step 3/4')} handlePress={handlePress} medium={false} />
 
       <View style={stylesCompleteProfile3.container}>
@@ -81,6 +83,6 @@ export const CompleteProfile3: React.FC<CompletePr3PresenterProps> = ({
           isloading={isLoading}
         />
       </View>
-    </>
+    </SafeAreaView>
   );
 };

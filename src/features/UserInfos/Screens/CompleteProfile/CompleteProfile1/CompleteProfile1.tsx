@@ -8,6 +8,7 @@ import { tt } from '../../../../../locales/translation.config';
 import React from 'react';
 import Header from '../../../Components/Header/Header';
 import { Color } from '../../../../../utils/StylingConsts/Colors/Colors';
+import { SafeAreaView } from 'react-native-safe-area-context';
 interface CompletePr1PresenterProps {
   uri: ImageSourcePropType | undefined | any;
   onPress1: () => void;
@@ -56,7 +57,7 @@ export const CompleteProfile1: React.FC<CompletePr1PresenterProps> = ({
   }
 
   return (
-    <>
+    <SafeAreaView style={{ flex: 1, backgroundColor: Color.colorWhite }}>
       <View style={stylesCompleteProfile1.screen}>
         <Header
           title={tt('Step 1/4')}
@@ -139,6 +140,6 @@ export const CompleteProfile1: React.FC<CompletePr1PresenterProps> = ({
           />
         </View>
       </View>
-    </>
+    </SafeAreaView>
   );
 };

@@ -17,6 +17,7 @@ import { MessageModal } from '../components/PopUp/MessageModal';
 import Loader from '../components/Loader/Loader';
 import { Linking } from 'react-native';
 import { splashLoading } from '../utils/consts/numericValues/numericValues';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 const Stack = createNativeStackNavigator<LayoutParamList>();
 
@@ -60,7 +61,7 @@ const LayoutContainer = (): JSX.Element => {
   }, []);
 
   return (
-    <>
+    <SafeAreaProvider>
       {isLoading ? (
         <Splash />
       ) : (
@@ -107,7 +108,7 @@ const LayoutContainer = (): JSX.Element => {
         />
       )}
       {loader && <Loader loading />}
-    </>
+    </SafeAreaProvider>
   );
 };
 

@@ -6,6 +6,8 @@ import { Header } from '../../../Components/Header/Header';
 import { tt } from '../../../../../locales/translation.config';
 import { stylesCompleteProfile2 } from './completeProfile2Styles';
 import { stylesCompleteProfile1 } from '../CompleteProfile1/completeProfile1Styles';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import { Color } from '../../../../../utils/StylingConsts/Colors/Colors';
 
 interface CompletePr2PresenterProps {
   height: string;
@@ -51,7 +53,7 @@ export const CompleteProfile2: React.FC<CompletePr2PresenterProps> = ({
   validateHeight
 }) => {
   return (
-    <>
+    <SafeAreaView style={{ flex: 1, backgroundColor: Color.colorWhite }}>
       <Header title={tt('Step 2/4')} handlePress={handlePress} medium={true} />
 
       <View style={stylesCompleteProfile2.screen}>
@@ -139,6 +141,6 @@ export const CompleteProfile2: React.FC<CompletePr2PresenterProps> = ({
           />
         </View>
       </View>
-    </>
+    </SafeAreaView>
   );
 };

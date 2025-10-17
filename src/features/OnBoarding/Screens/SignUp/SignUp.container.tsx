@@ -68,10 +68,11 @@ const SignUpContainer = ({ navigation, route }: SignUpProps) => {
   };
 
   const handleSubmit = async () => {
+    console.log(phoneNumber);
     try {
       const signUpData: ISignUpRequest = {
         email,
-        phoneNumber: parseInt(phoneNumber, 8),
+        phoneNumber: parseInt(phoneNumber, 10),
         password,
         role
       };

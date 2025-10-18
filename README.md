@@ -12,6 +12,8 @@
 
 This project is the front part of a mobile application designed to help users manage their health proactively. It allows tracking of key health indicators, managing nutritional plans, and communicating securely with healthcare professionals. The application is intended for both patients and doctors, with distinct interfaces and functionalities for each role.
 
+find backedn at : https://github.com/arwa-mili/pfe_backend
+
 ## Features
 
 - **Authentication Management:** Secure registration, login, and password reset.

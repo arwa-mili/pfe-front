@@ -14,6 +14,8 @@ This project is the front part of a mobile application designed to help users ma
 
 find backend at : https://github.com/arwa-mili/pfe_backend
 
+video demo : https://www.youtube.com/watch?v=xJJml1CSDeQ
+
 ## Features
 
 - **Authentication Management:** Secure registration, login, and password reset with Deep Linking.

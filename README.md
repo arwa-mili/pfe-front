@@ -16,7 +16,7 @@ find backend at : https://github.com/arwa-mili/pfe_backend
 
 ## Features
 
-- **Authentication Management:** Secure registration, login, and password reset.
+- **Authentication Management:** Secure registration, login, and password reset with Deep Linking.
 - **Complete User Profile:** Management of personal information, medical history, and preferences.
 - **Health Data Tracking:** Recording and visualization of key measurements such as weight, BMI, blood glucose, etc.
 - **Nutrition Plan Management:** Creation, tracking, and customization of dietary plans.
